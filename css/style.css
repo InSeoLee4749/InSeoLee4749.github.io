@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
-  font-family: "Noto Sans KR", sans-serif;
   font-family: "Poppins", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 #header {
@@ -83,7 +83,52 @@ body {
   color: white;
 }
 #about .about3 .swiper {
-  height: 200px;
+  height: 150px;
+}
+#about .about3 .swiper-slide {
+  background-color: #efefef;
+  border-radius: 35px;
+}
+#about .about3 .swiper-slide .swiper-box {
+  justify-content: space-around;
+  padding-top: 40px;
+}
+#about .about3 .swiper-slide .swiper-box .sbox {
+  text-align: center;
+}
+#about .about3 .swiper-slide .swiper-box .sbox .sboxdate {
+  font-size: 13px;
+  color: #737373;
+}
+#about .about4 {
+  padding-top: 13px;
+}
+#about .about4 .about4box {
+  justify-content: space-between;
+}
+#about .about4 .about4box .box4 {
+  background-color: #efefef;
+  border-radius: 35px;
+  width: 500px;
+  height: 120px;
+  justify-content: space-around;
+  padding-top: 30px;
+  text-align: center;
+}
+#about .about4 .about4box .box4 .box4date {
+  font-size: 13px;
+  color: #737373;
+}
+#about .about4 .about4box .certifi .box5 {
+  background-color: #efefef;
+  border-radius: 35px;
+  width: 300px;
+  height: 120px;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+#about .about4 .about4box .certifi .box5 .box5-2 {
+  padding-left: 15px;
 }
 #about .about4 .company {
   background-color: #006edb;
@@ -106,4 +151,42 @@ body {
 }
 #about .about4 .certificate i {
   color: white;
+}
+
+#skill .about5 .ski {
+  background-color: #006edb;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 3px;
+}
+#skill .about5 .ski i {
+  color: white;
+}
+#skill .about5 .word {
+  padding-left: 5px;
+  padding-top: 2px;
+}
+#skill .skillbox .skill1 .ado {
+  padding-left: 8px;
+}
+#skill .skillbox .skill1 .skill1_box {
+  padding-left: 35px;
+}
+#skill .skillbox .skill1 .skill1_box .skill1_mini {
+  height: 3px;
+  width: 1000px;
+  background-color: #006edb;
+}
+#skill .skillbox .skill2 {
+  padding-top: 3px;
+}
+#skill .skillbox .skill2 .skill2_box {
+  padding-left: 93px;
+}
+#skill .skillbox .skill2 .skill2_box .skill2_mini {
+  height: 3px;
+  width: 1000px;
+  background-color: #006edb;
 }
