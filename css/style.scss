@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header{
+    background-color: #c8dbf6;
+    height: 500px;
+}
+
+/* about */
+#about{
+    padding-top: 8rem;
+    .word{
+        padding-left: 5px;
+        padding-top: 2px;
+    }
+    .about1{
+        justify-content: center;
+    }
+    .aboutimg_ment{
+        padding-left: 90px;
+        h2{
+            color: #006edb;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .about_date{
+            font-size: 13px;
+        }
+        .about_ment{
+            font-size: 15px;
+        }
+    }
+    .about2{
+        justify-content: space-between;
+        padding-top: 20px;
+        .phone{
+            background-color: #006edb;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            padding-top: 3px;
+            i{
+                color: white;
+            }
+        }
+        .memail{
+            .email{
+                background-color: #006edb;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                padding-top: 3px;
+                i{
+                    color: white;
+                }
+            }
+        }
+        .website{
+            background-color: #006edb;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            padding-top: 3px;
+            i{
+                color: white;
+            }
+        }
+    }
+    .about3{
+        .uni{
+            background-color: #006edb;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                padding-top: 3px;
+                
+                i{
+                    color: white;
+                }
+        }
+        .swiper{
+            height: 200px;
+        }
+    }
+    
+    
+    .about4{
+        // .about4box{
+        //     justify-content: space-between;
+        // }
+        
+        .company{
+            background-color: #006edb;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                padding-top: 3px;
+                i{
+                    color: white;
+                }
+        }
+        .certificate{
+            background-color: #006edb;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                padding-top: 3px;
+                i{
+                    color: white;
+                }
+        }
+    }
+}
