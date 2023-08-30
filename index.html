@@ -19,7 +19,9 @@
     <!-- reset -->
     <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
     <!-- 글씨체 -->
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
     <!-- Bootstrap (v5.3.1) -->
@@ -38,8 +40,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <script src="js/my.js"></script>
     <!-- 커스터마이징 자바스크립트-->
+    <script src="js/my.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <!-- 제이쿼리 플러그인 자바스크립트 slick slider, box slider, 제이쿼리 자체 플러그인-->
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
@@ -55,7 +57,7 @@
     </section>
     <!-- <section id="m_hd"></section> -->
     <section id="about">
-        <div class="container p-5">
+        <div class="aboutbox container">
             <div class="about1 d-flex">
                 <div class="aboutimg">
                     <a href="" class="d-block"><img src="img/inseo.jpg" alt=""></a>
@@ -137,8 +139,8 @@
                 </div>
             </div>
             <div class="about4">
-                <div class="about4box d-flex">
-                    <div>
+                <div class="about4box d-flex w-100">
+                    <div class="col">
                         <div class="d-flex">
                             <div class="company">
                                 <i class="bi bi-briefcase"></i>
@@ -156,7 +158,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="certifi">
+                    <div class="certifi col">
                         <div class="d-flex">
                             <div class="certificate">
                                 <i class="bi bi-card-list"></i>
@@ -177,7 +179,7 @@
             </div>
         </div>
     </section>
-    <section id="skill" class="container p-5">
+    <section id="skill" class="container">
         <div class="about5">
             <div class="d-flex">
                 <div class="ski">
@@ -186,113 +188,172 @@
                 <p class="word">Skill</p>
             </div>
         </div>
-        <div class="skillbox">
-            <div class="skill1 d-flex">
+        <div class="skillbox" data-aos="fade-up">
+            <div class="skill1 d-flex w-100">
                 <div class="d-flex">
-                    <a href="" class="d-block"><img src="img/photoshop.png" alt=""></a>
-                    <a href="" class="d-block ado"><img src="img/adobe.png" alt=""></a>
+                    <img src="img/photoshop.png" alt="">
+                    <img src="img/adobe.png" class="ado" alt="">
                 </div>
-                <div class="skill1_box">
+                <div class="skill1_box col">
                     <span>photoshop & illustrator</span>
-                    <div class="skill1_mini"></div>
+                    <div>
+                        <div class="skill1_mini">
+                            <p>70%</p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
-            <div class="skill2 d-flex">
+            <div class="skill2 d-flex w-100">
                 <div>
-                    <a href="" class="d-block"><img src="img/figma.png" alt=""></a>
+                    <img src="img/figma.png" alt="">
                 </div>
-                <div class="skill2_box">
+                <div class="skill2_box col">
                     <span>figma</span>
-                    <div class="skill2_mini"></div>
+                    <div>
+                        <div class="skill2_mini">
+                            <p>70%</p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
-            <div class="skill3 d-flex">
+            <div class="skill3 d-flex w-100">
                 <div class="d-flex">
-                    <a href="" class="d-block"><img src="img/html.png" alt=""></a>
-                    <a href="" class="d-block"><img src="img/css.png" alt=""></a>
+                    <img src="img/html.png" alt="">
+                    <img src="img/css.png" alt="">
                 </div>
-                <div class="skill3_box">
+                <div class="skill3_box col">
                     <span>html5 & css</span>
                     <div class="skill3_mini"></div>
                 </div>
             </div>
-            <div class="skill4 d-flex">
+            <div class="skill2 d-flex w-100">
                 <div>
-                    <a href="" class="d-block"><img src="img/sass.png" alt=""></a>
+                    <img src="img/sass.png" alt="">
                 </div>
-                <div class="skill4_box">
+                <div class="skill2_box col">
                     <span>Sass</span>
-                    <div class="skill4_mini"></div>
+                    <div class="skill2_mini"></div>
                 </div>
             </div>
-            <div class="skill5 d-flex">
+            <div class="skill2 d-flex w-100">
                 <div>
-                    <a href="" class="d-block"><img src="img/sql.png" alt=""></a>
+                    <img src="img/sql.png" alt="">
                 </div>
-                <div class="skill5_box">
+                <div class="skill2_box col">
                     <span>MySQL</span>
-                    <div class="skill5_mini"></div>
+                    <div class="skill2_mini"></div>
                 </div>
             </div>
-            <div class="skill6 d-flex">
+            <div class="skill2 d-flex w-100">
                 <div>
-                    <a href="" class="d-block"><img src="img/javascript.png" alt=""></a>
+                    <img src="img/javascript.png" alt="">
                 </div>
-                <div class="skill6_box">
+                <div class="skill2_box col">
                     <span>javascript</span>
-                    <div class="skill6_mini"></div>
+                    <div class="skill2_mini"></div>
                 </div>
             </div>
-            <div class="skill7 d-flex">
+            <div class="skill2 d-flex w-100">
                 <div>
-                    <a href="" class="d-block"><img src="img/react.png" alt=""></a>
+                    <img src="img/react.png" alt="">
                 </div>
-                <div class="skill7_box">
+                <div class="skill2_box col">
                     <span>React</span>
-                    <div class="skill7_mini"></div>
+                    <div class="skill2_mini"></div>
                 </div>
             </div>
-            <div class="skill8 d-flex">
+            <div class="skill2 d-flex w-100">
                 <div>
-                    <a href="" class="d-block"><img src="img/node.png" alt=""></a>
+                    <img src="img/node.png" alt="">
                 </div>
-                <div class="skill8_box">
+                <div class="skill2_box col">
                     <span>node.js</span>
-                    <div class="skill8_mini"></div>
+                    <div class="skill2_mini"></div>
                 </div>
             </div>
-            <div class="skill9 d-flex">
+            <div class="skill2 d-flex w-100">
                 <div>
-                    <a href="" class="d-block"><img src="img/jQuery.png" alt=""></a>
+                    <img src="img/jQuery.png" alt="">
                 </div>
-                <div class="skill9_box">
+                <div class="skill2_box col">
                     <span>jQuery</span>
-                    <div class="skill9_mini"></div>
+                    <div class="skill2_mini"></div>
                 </div>
             </div>
-            <div class="skill10 d-flex">
+
+
+            <div class="skill10 d-flex w-100">
                 <div>
-                    <a href="" class="d-block"><img src="img/bootstrap.png" alt=""></a>
+                    <img src="img/bootstrap.png" alt="">
                 </div>
-                <div class="skill10_box">
+                <div class="skill10_box col">
                     <span>Bootstrap</span>
                     <div class="skill10_mini"></div>
                 </div>
             </div>
-            <div class="skill11 d-flex">
+
+            <div class="skill11 d-flex w-100">
                 <div>
-                    <a href="" class="d-block"><img src="img/gnu.png" alt=""></a>
+                    <img src="img/gnu.png" alt="">
                 </div>
-                <div class="skill11_box">
+                <div class="skill11_box col">
                     <span>gnuboard</span>
                     <div class="skill11_mini"></div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="portfolio"></section>
+    
+    <section id="portfolio">
+        <div class="container">
+            <div class="titbox d-flex">
+                <div></div>
+                <h2 class="ptitle">Portfolio</h2>
+            </div>
+            <div class="portbox">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide d-flex w100 p-5">
+                            <div class="col">
+                                <div class="pimg"></div>
+                            </div>
+                            <div class="portment1 col">
+                                <div class="p1_ment1">
+                                    <h2>The Body Shop</h2>
+                                    <p>노드서버와 연동한 더바디샵 리액트 싱글페이지</p>
+                                </div>
+                                <div class="p1_ment2">
+                                    단독작업 / 제작기간 0주일
+                                </div>
+                                <div class="p1_ment3">
+                                    <h4>제작특징</h4>
+                                    <p>-The Body Shop 홍보 싱글 페이지 제작</p>
+                                    <p>-React을 이용한 신속하고 효율적인 제작</p>
+                                    <p>-각 섹션별 component를 분리하여 유지보수성을 높임</p>
+                                    <p>-DB 분리 및 연동을 통해서 손쉬운 컨텐츠 관리 가능</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    
     <section id="interview"></section>
     <section id="footer"></section>
     
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
