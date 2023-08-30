@@ -183,9 +183,111 @@ body {
   padding-top: 3px;
 }
 #skill .skillbox .skill2 .skill2_box {
-  padding-left: 93px;
+  padding-left: 103px;
 }
 #skill .skillbox .skill2 .skill2_box .skill2_mini {
+  height: 3px;
+  width: 1000px;
+  background-color: #006edb;
+}
+#skill .skillbox .skill3 {
+  padding-top: 3px;
+}
+#skill .skillbox .skill3 .skill3_box {
+  padding-left: 43px;
+}
+#skill .skillbox .skill3 .skill3_box .skill3_mini {
+  height: 3px;
+  width: 1000px;
+  background-color: #006edb;
+}
+#skill .skillbox .skill4 {
+  padding-top: 3px;
+}
+#skill .skillbox .skill4 .skill4_box {
+  padding-left: 103px;
+}
+#skill .skillbox .skill4 .skill4_box .skill4_mini {
+  height: 3px;
+  width: 1000px;
+  background-color: #006edb;
+}
+#skill .skillbox .skill5 {
+  padding-top: 3px;
+}
+#skill .skillbox .skill5 .skill5_box {
+  padding-left: 103px;
+}
+#skill .skillbox .skill5 .skill5_box .skill5_mini {
+  height: 3px;
+  width: 1000px;
+  background-color: #006edb;
+}
+#skill .skillbox .skill6 {
+  padding-top: 3px;
+}
+#skill .skillbox .skill6 .skill6_box {
+  padding-left: 103px;
+}
+#skill .skillbox .skill6 .skill6_box .skill6_mini {
+  height: 3px;
+  width: 1000px;
+  background-color: #006edb;
+}
+#skill .skillbox .skill7 {
+  padding-top: 3px;
+}
+#skill .skillbox .skill7 .skill7_box {
+  padding-left: 103px;
+}
+#skill .skillbox .skill7 .skill7_box .skill7_mini {
+  height: 3px;
+  width: 1000px;
+  background-color: #006edb;
+}
+#skill .skillbox .skill8 {
+  padding-top: 3px;
+}
+#skill .skillbox .skill8 .skill8_box {
+  padding-left: 103px;
+}
+#skill .skillbox .skill8 .skill8_box .skill8_mini {
+  height: 3px;
+  width: 1000px;
+  background-color: #006edb;
+}
+#skill .skillbox .skill9 {
+  padding-top: 3px;
+}
+#skill .skillbox .skill9 .skill9_box {
+  padding-left: 103px;
+}
+#skill .skillbox .skill9 .skill9_box .skill9_mini {
+  height: 3px;
+  width: 1000px;
+  background-color: #006edb;
+}
+#skill .skillbox .skill10 {
+  padding-top: 6px;
+}
+#skill .skillbox .skill10 .skill10_box {
+  padding-left: 103px;
+}
+#skill .skillbox .skill10 .skill10_box .skill10_mini {
+  height: 3px;
+  width: 1000px;
+  background-color: #006edb;
+}
+#skill .skillbox .skill11 {
+  padding-top: 6px;
+}
+#skill .skillbox .skill11 img {
+  width: 100px;
+}
+#skill .skillbox .skill11 .skill11_box {
+  padding-left: 64px;
+}
+#skill .skillbox .skill11 .skill11_box .skill11_mini {
   height: 3px;
   width: 1000px;
   background-color: #006edb;
