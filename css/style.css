@@ -19,10 +19,24 @@ a, p {
 
 /* about */
 #about {
-  padding-top: 8rem;
+  padding-top: 5rem;
 }
 #about .aboutbox {
   padding: 0 50px;
+}
+#about .aboutbox .titbox {
+  padding-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+#about .aboutbox .titbox div {
+  background-color: #006edb;
+  width: 9px;
+  height: 20px;
+}
+#about .aboutbox .titbox .ptitle {
+  text-align: center;
+  padding-left: 5px;
 }
 #about .word {
   padding-left: 5px;
@@ -353,6 +367,7 @@ a, p {
 }
 #portfolio .portbox .portment1 {
   align-items: center;
+  padding-top: 50px;
 }
 #portfolio .portbox .portment1 .p1_ment2 {
   padding: 2px;

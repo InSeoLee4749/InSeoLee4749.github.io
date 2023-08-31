@@ -18,10 +18,24 @@ a, p{
 }
 
 /* about */
+
 #about{
-    padding-top: 8rem;
+    padding-top: 5rem;
     .aboutbox{
         padding: 0 50px;
+        .titbox{
+            padding-top: 30px;
+            align-items: center;
+            justify-content: center;
+            div{
+                background-color: #006edb;
+                width: 9px;
+                height: 20px;
+            }
+            .ptitle{
+                text-align: center;
+                padding-left: 5px;
+            }}
     }
     .word{
         padding-left: 5px;
@@ -371,6 +385,7 @@ a, p{
         }
         .portment1{
             align-items: center;
+            padding-top: 50px;
             .p1_ment2{
                 padding: 2px;
                 background-color: #d3d3d3;
