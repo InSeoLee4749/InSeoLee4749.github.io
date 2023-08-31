@@ -3,7 +3,13 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Noto Sans KR', sans-serif;
-
+}
+ul,li{
+    list-style: none;
+}
+a, p{
+    text-decoration: none;
+    color: #262626;
 }
 
 #header{
@@ -342,7 +348,7 @@ body{
     background-color: #c8dbf6;
     height: 600px;
     overflow: hidden;
-    .titbox{
+    .por_titbox{
         padding-top: 30px;
         align-items: center;
         justify-content: center;
@@ -374,6 +380,77 @@ body{
         }
         .p1_ment3{
             padding-top: 20px;
+        }
+    }
+}
+#interview{
+    height: 1000px;
+    .titbox{
+        padding-top: 30px;
+        align-items: center;
+        justify-content: center;
+        div{
+            background-color: #006edb;
+            width: 9px;
+            height: 20px;
+        }
+        .ptitle{
+            text-align: center;
+            padding-left: 5px;
+        }
+    }
+    .inbox{
+        border-top: 1px solid #ddd;
+        li{
+            border-bottom: 1px solid #ddd;
+            a{
+                position: relative;
+                display: block;
+                padding: 30px 0 30px 85px;
+                &:before{
+                    content: "";
+                    position: absolute;
+                    right: 30px;
+                    top: 35px;
+                    background: url(/img/sprite.png) no-repeat -93px -70px;
+                    width: 17px;
+                    height: 19px;
+                }
+                &:after{
+                    content: "";
+                    position: absolute;
+                    left: 30px;
+                    top: 23px;
+                    background: url(/img/q.png) no-repeat;
+                    width: 34px;
+                    height: 34px;
+                }
+                div{
+                    width: 90%;
+                    overflow: hidden;
+                }
+            }
+            .answer{
+                display: none;
+                position: relative;
+                margin-bottom: 20px;
+                padding: 0 0 20px 85px;
+                .text{
+                    padding: 20px 0 0;
+                }
+                &:after{
+                    content: "";
+                    position: absolute;
+                    left: 30px;
+                    top: 13px;
+                    background: url(/img/a.png) no-repeat;
+                    width: 34px;
+                    height: 34px;
+                }
+                &.on{
+                    display: block;
+                }
+            }
         }
     }
 }
