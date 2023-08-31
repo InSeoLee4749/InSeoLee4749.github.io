@@ -53,12 +53,6 @@ a, p {
   font-size: 20px;
   font-weight: bold;
 }
-#about .aboutimg_ment .about_date {
-  font-size: 13px;
-}
-#about .aboutimg_ment .about_ment {
-  font-size: 15px;
-}
 #about .about2 {
   justify-content: space-between;
   padding-top: 20px;
@@ -361,13 +355,14 @@ a, p {
   padding-left: 5px;
 }
 #portfolio .portbox .pimg {
-  background-color: white;
-  width: 300px;
-  height: 400px;
+  width: 45%;
+}
+#portfolio .portbox .pimg1 {
+  width: 45%;
+  margin-left: 10px;
 }
 #portfolio .portbox .portment1 {
-  align-items: center;
-  padding-top: 50px;
+  padding: 25px;
 }
 #portfolio .portbox .portment1 .p1_ment2 {
   padding: 2px;
@@ -380,7 +375,7 @@ a, p {
 }
 
 #interview {
-  height: 1000px;
+  height: 865px;
 }
 #interview .titbox {
   padding-top: 30px;
@@ -449,4 +444,22 @@ a, p {
 }
 #interview .inbox li .answer.on {
   display: block;
+}
+
+#contact {
+  height: 500px;
+}
+#contact .contitbox {
+  padding-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+#contact .contitbox div {
+  background-color: #006edb;
+  width: 9px;
+  height: 20px;
+}
+#contact .contitbox .ctitle {
+  text-align: center;
+  padding-left: 5px;
 }
