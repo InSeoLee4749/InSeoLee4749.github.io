@@ -473,7 +473,7 @@ a, p{
     }
 }
 #contact{
-    height: 500px;
+    height: 570px;
     background-color: #c8dbf6;
     .contitbox{
         padding-top: 30px;
@@ -495,14 +495,77 @@ a, p{
         width: 60%;
         background-color: white;
         padding: 60px;
+        border: solid 2px #006edb;
+        .box2, .box3, .box4, .box5{
+            padding-top: 10px;
+        }
+        .box1 input{
+            width: 325px;
+        }
+        .box2 input{
+            width: 325px;
+        }
+        .box3 input{
+            width: 267px;
+        }
+        .box4 li{
+            padding: 0 12px;
+        }
+        .box5 li{
+            padding: 0 12px;
+        }
+    }
+    .personal{
+        padding-top: 10px;
+    }
+    .bts{
+        text-align: center;
+        padding-top: 30px;
     }
 
 }
 
 #footer{
     background-color: #efefef;
+    height: 90px;
     .fbox{
         justify-content: center;
         align-items: center;
+        padding-top: 15px;
+    }
+    .fli{
+        padding: 0 30px;
+    }
+}
+
+#quick{
+    bottom: 20px;
+    position: fixed;
+    right: 20px;
+    z-index: 10;
+    .kakao{
+        margin-bottom: 0.5rem;
+        .kakao_a{
+            align-items: center;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            height: 70px;
+            justify-content: center;
+            overflow: hidden;
+            width: 70px;
+            background-color: #f4db4d;
+        }
+    }
+    .quick_top{
+        align-items: center;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        height: 70px;
+        justify-content: center;
+        overflow: hidden;
+        width: 70px;
+        background-color: #006edb;
     }
 }

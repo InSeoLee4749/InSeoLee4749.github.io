@@ -448,7 +448,7 @@ a, p {
 }
 
 #contact {
-  height: 500px;
+  height: 570px;
   background-color: #c8dbf6;
 }
 #contact .contitbox {
@@ -471,12 +471,75 @@ a, p {
   width: 60%;
   background-color: white;
   padding: 60px;
+  border: solid 2px #006edb;
+}
+#contact .form .box2, #contact .form .box3, #contact .form .box4, #contact .form .box5 {
+  padding-top: 10px;
+}
+#contact .form .box1 input {
+  width: 325px;
+}
+#contact .form .box2 input {
+  width: 325px;
+}
+#contact .form .box3 input {
+  width: 267px;
+}
+#contact .form .box4 li {
+  padding: 0 12px;
+}
+#contact .form .box5 li {
+  padding: 0 12px;
+}
+#contact .personal {
+  padding-top: 10px;
+}
+#contact .bts {
+  text-align: center;
+  padding-top: 30px;
 }
 
 #footer {
   background-color: #efefef;
+  height: 90px;
 }
 #footer .fbox {
   justify-content: center;
   align-items: center;
+  padding-top: 15px;
+}
+#footer .fli {
+  padding: 0 30px;
+}
+
+#quick {
+  bottom: 20px;
+  position: fixed;
+  right: 20px;
+  z-index: 10;
+}
+#quick .kakao {
+  margin-bottom: 0.5rem;
+}
+#quick .kakao .kakao_a {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  justify-content: center;
+  overflow: hidden;
+  width: 70px;
+  background-color: #f4db4d;
+}
+#quick .quick_top {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  justify-content: center;
+  overflow: hidden;
+  width: 70px;
+  background-color: #006edb;
 }
