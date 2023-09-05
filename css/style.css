@@ -19,6 +19,29 @@ a, p {
 }
 
 /* about */
+@media screen and (max-width: 320px) {
+  #about .about1 .aboutimg_ment {
+    padding-left: 0 !important;
+  }
+  #about .about1 .aboutimg_ment h2 {
+    padding-top: 7px;
+  }
+  #about .about2 .word {
+    padding: 0;
+    margin-right: 10px;
+  }
+  #about .about3 .swiper-box {
+    padding-top: 50px !important;
+  }
+  #about .about3 .swiper-box .sbox .pp {
+    font-size: 13px !important;
+  }
+  #about .about4 .about4box .box4 {
+    background-color: #efefef;
+    border-radius: 35px;
+    padding-top: 30px;
+  }
+}
 #about {
   padding-top: 5rem;
 }
@@ -27,24 +50,15 @@ a, p {
 }
 #about .aboutbox .titbox {
   padding-top: 30px;
-  align-items: center;
-  justify-content: center;
 }
-#about .aboutbox .titbox div {
+#about .aboutbox .titbox:before {
+  content: "";
+  display: block;
   background-color: #006edb;
   width: 9px;
-  height: 20px;
 }
 #about .aboutbox .titbox .ptitle {
-  text-align: center;
   padding-left: 5px;
-}
-#about .word {
-  padding-left: 5px;
-  padding-top: 2px;
-}
-#about .about1 {
-  justify-content: center;
 }
 #about .aboutimg_ment {
   padding-left: 90px;
@@ -58,49 +72,35 @@ a, p {
   justify-content: space-between;
   padding-top: 20px;
 }
-#about .about2 .phone {
+#about .about2 .bgcircle {
   background-color: #006edb;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding-top: 3px;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
 }
-#about .about2 .phone i {
+#about .about2 .bgcircle i {
   color: white;
+  padding-right: 2px;
 }
-#about .about2 .memail .email {
+#about .about3 .bgcircle {
   background-color: #006edb;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding-top: 3px;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
 }
-#about .about2 .memail .email i {
+#about .about3 .bgcircle i {
   color: white;
-}
-#about .about2 .website {
-  background-color: #006edb;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding-top: 3px;
-}
-#about .about2 .website i {
-  color: white;
-}
-#about .about3 .uni {
-  background-color: #006edb;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding-top: 3px;
-}
-#about .about3 .uni i {
-  color: white;
+  padding-right: 2px;
 }
 #about .about3 .swiper {
   height: 150px;
@@ -120,8 +120,20 @@ a, p {
   font-size: 13px;
   color: #737373;
 }
-#about .about4 {
-  padding-top: 13px;
+#about .about4 .bgcircle {
+  background-color: #006edb;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+#about .about4 .bgcircle i {
+  color: white;
+  padding-right: 2px;
 }
 #about .about4 .about4box {
   justify-content: space-between;
@@ -147,49 +159,24 @@ a, p {
   padding-top: 30px;
   padding-left: 40px;
 }
-#about .about4 .about4box .certifi .box5 .box5-2 {
-  padding-left: 15px;
-}
-#about .about4 .company {
-  background-color: #006edb;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding-top: 3px;
-}
-#about .about4 .company i {
-  color: white;
-}
-#about .about4 .certificate {
-  background-color: #006edb;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding-top: 3px;
-}
-#about .about4 .certificate i {
-  color: white;
-}
 
 #skill {
   padding: 20px 50px;
 }
-#skill .about5 .ski {
+#skill .about5 .bgcircle {
   background-color: #006edb;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding-top: 3px;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
 }
-#skill .about5 .ski i {
+#skill .about5 .bgcircle i {
   color: white;
-}
-#skill .about5 .word {
-  padding-left: 5px;
-  padding-top: 2px;
+  padding-right: 2px;
 }
 #skill .skillbox.aos-animate .skill1_mini {
   position: relative;
@@ -338,18 +325,16 @@ a, p {
 
 #portfolio {
   background-color: #c8dbf6;
-  height: 600px;
   overflow: hidden;
 }
 #portfolio .por_titbox {
   padding-top: 30px;
-  align-items: center;
-  justify-content: center;
 }
-#portfolio .por_titbox div {
+#portfolio .por_titbox:before {
+  content: "";
+  display: block;
   background-color: #006edb;
   width: 9px;
-  height: 20px;
 }
 #portfolio .por_titbox .ptitle {
   text-align: center;
@@ -375,18 +360,14 @@ a, p {
   padding-top: 20px;
 }
 
-#interview {
-  height: 865px;
-}
 #interview .titbox {
   padding-top: 30px;
-  align-items: center;
-  justify-content: center;
 }
-#interview .titbox div {
+#interview .titbox:before {
+  content: "";
+  display: block;
   background-color: #006edb;
   width: 9px;
-  height: 20px;
 }
 #interview .titbox .ptitle {
   text-align: center;
@@ -448,18 +429,16 @@ a, p {
 }
 
 #contact {
-  height: 570px;
   background-color: #c8dbf6;
 }
 #contact .contitbox {
   padding-top: 30px;
-  align-items: center;
-  justify-content: center;
 }
-#contact .contitbox div {
+#contact .contitbox:before {
+  content: "";
+  display: block;
   background-color: #006edb;
   width: 9px;
-  height: 20px;
 }
 #contact .contitbox .ctitle {
   text-align: center;
@@ -475,15 +454,6 @@ a, p {
 }
 #contact .form .box2, #contact .form .box3, #contact .form .box4, #contact .form .box5 {
   padding-top: 10px;
-}
-#contact .form .box1 input {
-  width: 325px;
-}
-#contact .form .box2 input {
-  width: 325px;
-}
-#contact .form .box3 input {
-  width: 267px;
 }
 #contact .form .box4 li {
   padding: 0 12px;

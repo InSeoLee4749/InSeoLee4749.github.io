@@ -20,31 +20,69 @@ a, p{
 }
 
 /* about */
+@media screen and (max-width: 320px) {
+    #about{
+        .about1{
+            .aboutimg_ment{
+                padding-left: 0 !important;
+                h2{
+                    padding-top: 7px;
+                }
+            }
+        }
+        .about2{
+            .word{
+                padding: 0;
+                margin-right: 10px;
+            }
+        }
+        .swiper-button-next{
+           
+        }
+        .swiper-button-prev{
+            
+        }
+        .about3{
+            .swiper-box{
+                
+                padding-top: 50px !important;
+                .sbox{
+                    .sboxdate{
+                    }
+                    .pp{
+                        font-size: 13px !important;
+                    }
+                }
+            }
+        }
+        .about4{
+            .about4box{
+                .box4{
+                background-color: #efefef;
+                border-radius: 35px;
+                padding-top: 30px;
+                }
+            }
+        }
+    }
+}
+
 
 #about{
     padding-top: 5rem;
     .aboutbox{
         padding: 0 50px;
         .titbox{
-            padding-top: 30px;
-            align-items: center;
-            justify-content: center;
-            div{
+            padding-top: 30px;           
+            &:before{
+                content: "";
+                display: block;
                 background-color: #006edb;
-                width: 9px;
-                height: 20px;
+                width: 9px;                
             }
             .ptitle{
-                text-align: center;
                 padding-left: 5px;
             }}
-    }
-    .word{
-        padding-left: 5px;
-        padding-top: 2px;
-    }
-    .about1{
-        justify-content: center;
     }
     .aboutimg_ment{
         padding-left: 90px;
@@ -63,54 +101,37 @@ a, p{
     .about2{
         justify-content: space-between;
         padding-top: 20px;
-        .phone{
+        .bgcircle{
             background-color: #006edb;
             border-radius: 50%;
-            width: 30px;
-            height: 30px;
-            text-align: center;
-            padding-top: 3px;
+            width: 2rem;
+            height: 2rem;            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;  
+            align-items: center;   
+            margin-right: 8px;     
             i{
                 color: white;
-            }
-        }
-        .memail{
-            .email{
-                background-color: #006edb;
-                border-radius: 50%;
-                width: 30px;
-                height: 30px;
-                text-align: center;
-                padding-top: 3px;
-                i{
-                    color: white;
-                }
-            }
-        }
-        .website{
-            background-color: #006edb;
-            border-radius: 50%;
-            width: 30px;
-            height: 30px;
-            text-align: center;
-            padding-top: 3px;
-            i{
-                color: white;
+                padding-right: 2px;
             }
         }
     }
     .about3{
-        .uni{
+        .bgcircle{
             background-color: #006edb;
-                border-radius: 50%;
-                width: 30px;
-                height: 30px;
-                text-align: center;
-                padding-top: 3px;
-                
-                i{
-                    color: white;
-                }
+            border-radius: 50%;
+            width: 2rem;
+            height: 2rem;            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;  
+            align-items: center;   
+            margin-right: 8px;     
+            i{
+                color: white;
+                padding-right: 2px;
+            }
         }
         .swiper{
             height: 150px;
@@ -133,7 +154,21 @@ a, p{
         
     }
     .about4{
-        padding-top: 13px;
+        .bgcircle{
+            background-color: #006edb;
+            border-radius: 50%;
+            width: 2rem;
+            height: 2rem;            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;  
+            align-items: center;   
+            margin-right: 8px;     
+            i{
+                color: white;
+                padding-right: 2px;
+            }
+        }
         .about4box{
             justify-content: space-between;
             .box4{
@@ -158,55 +193,28 @@ a, p{
                     height: 120px;
                     padding-top: 30px;
                     padding-left: 40px;
-                    .box5-2{
-                        padding-left: 15px;
-                    }
                 }
             }
-            
-        }
-        
-        .company{
-            background-color: #006edb;
-                border-radius: 50%;
-                width: 30px;
-                height: 30px;
-                text-align: center;
-                padding-top: 3px;
-                i{
-                    color: white;
-                }
-        }
-        .certificate{
-            background-color: #006edb;
-                border-radius: 50%;
-                width: 30px;
-                height: 30px;
-                text-align: center;
-                padding-top: 3px;
-                i{
-                    color: white;
-                }
         }
     }
 }
 #skill{
     padding: 20px 50px;
     .about5{
-        .ski{
+        .bgcircle{
             background-color: #006edb;
             border-radius: 50%;
-            width: 30px;
-            height: 30px;
-            text-align: center;
-            padding-top: 3px;
+            width: 2rem;
+            height: 2rem;            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;  
+            align-items: center;   
+            margin-right: 8px;     
             i{
                 color: white;
+                padding-right: 2px;
             }
-        }
-        .word{
-            padding-left: 5px;
-            padding-top: 2px;
         }
     }
     .skillbox{
@@ -360,18 +368,32 @@ a, p{
         }
     }
 }
+// padding-top: 5rem;
+//     .aboutbox{
+//         padding: 0 50px;
+//         .titbox{
+//             padding-top: 30px;           
+//             &:before{
+//                 content: "";
+//                 display: block;
+//                 background-color: #006edb;
+//                 width: 9px;                
+//             }
+//             .ptitle{
+//                 padding-left: 5px;
+//             }}
+//     }
+
 #portfolio{
     background-color: #c8dbf6;
-    height: 600px;
     overflow: hidden;
     .por_titbox{
         padding-top: 30px;
-        align-items: center;
-        justify-content: center;
-        div{
+        &:before{
+            content: "";
+            display: block;
             background-color: #006edb;
-            width: 9px;
-            height: 20px;
+            width: 9px;                
         }
         .ptitle{
             text-align: center;
@@ -402,15 +424,13 @@ a, p{
     }
 }
 #interview{
-    height: 865px;
     .titbox{
         padding-top: 30px;
-        align-items: center;
-        justify-content: center;
-        div{
+        &:before{
+            content: "";
+            display: block;
             background-color: #006edb;
-            width: 9px;
-            height: 20px;
+            width: 9px;                
         }
         .ptitle{
             text-align: center;
@@ -473,16 +493,14 @@ a, p{
     }
 }
 #contact{
-    height: 570px;
     background-color: #c8dbf6;
     .contitbox{
         padding-top: 30px;
-        align-items: center;
-        justify-content: center;
-        div{
+        &:before{
+            content: "";
+            display: block;
             background-color: #006edb;
-            width: 9px;
-            height: 20px;
+            width: 9px;                
         }
         .ctitle{
             text-align: center;
@@ -499,15 +517,7 @@ a, p{
         .box2, .box3, .box4, .box5{
             padding-top: 10px;
         }
-        .box1 input{
-            width: 325px;
-        }
-        .box2 input{
-            width: 325px;
-        }
-        .box3 input{
-            width: 267px;
-        }
+        
         .box4 li{
             padding: 0 12px;
         }
