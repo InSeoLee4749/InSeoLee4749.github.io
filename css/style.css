@@ -18,8 +18,29 @@ a, p {
   height: 500px;
 }
 
+.boxs {
+  background-color: #efefef;
+  border-radius: 35px;
+}
+
+.bgcircle {
+  background-color: #006edb;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+.bgcircle i {
+  color: white;
+  padding-right: 2px;
+}
+
 /* about */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   #about .about1 .aboutimg_ment {
     padding-left: 0 !important;
   }
@@ -30,34 +51,23 @@ a, p {
     padding: 0;
     margin-right: 10px;
   }
-  #about .about3 .swiper-box {
-    padding-top: 50px !important;
-  }
-  #about .about3 .swiper-box .sbox .pp {
-    font-size: 13px !important;
-  }
-  #about .about4 .about4box .box4 {
-    background-color: #efefef;
-    border-radius: 35px;
-    padding-top: 30px;
+  #quick {
+    display: none;
   }
 }
 #about {
-  padding-top: 5rem;
-}
-#about .aboutbox {
   padding: 0 50px;
 }
-#about .aboutbox .titbox {
+#about .titbox {
   padding-top: 30px;
 }
-#about .aboutbox .titbox:before {
+#about .titbox:before {
   content: "";
   display: block;
   background-color: #006edb;
   width: 9px;
 }
-#about .aboutbox .titbox .ptitle {
+#about .titbox .ptitle {
   padding-left: 5px;
 }
 #about .aboutimg_ment {
@@ -70,159 +80,110 @@ a, p {
 }
 #about .about2 {
   justify-content: space-between;
-  padding-top: 20px;
-}
-#about .about2 .bgcircle {
-  background-color: #006edb;
-  border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-right: 8px;
-}
-#about .about2 .bgcircle i {
-  color: white;
-  padding-right: 2px;
-}
-#about .about3 .bgcircle {
-  background-color: #006edb;
-  border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-right: 8px;
-}
-#about .about3 .bgcircle i {
-  color: white;
-  padding-right: 2px;
 }
 #about .about3 .swiper {
   height: 150px;
 }
 #about .about3 .swiper-slide {
-  background-color: #efefef;
-  border-radius: 35px;
+  padding: 25px 10px 25px 50px;
 }
-#about .about3 .swiper-slide .swiper-box {
-  justify-content: space-around;
-  padding-top: 40px;
-}
-#about .about3 .swiper-slide .swiper-box .sbox {
-  text-align: center;
-}
-#about .about3 .swiper-slide .swiper-box .sbox .sboxdate {
+#about .about3 .swiper-slide .sbox .sboxdate {
   font-size: 13px;
-  color: #737373;
-}
-#about .about4 .bgcircle {
-  background-color: #006edb;
-  border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-right: 8px;
-}
-#about .about4 .bgcircle i {
-  color: white;
-  padding-right: 2px;
+  color: #2196F3;
+  /* border-radius: 30px; */
+  border-bottom: 1px solid #2196F3;
+  display: inline-block;
+  padding: 5px 0 5px 0;
 }
 #about .about4 .about4box {
-  justify-content: space-between;
-}
-#about .about4 .about4box .box4 {
-  background-color: #efefef;
-  border-radius: 35px;
-  width: 500px;
-  height: 120px;
-  justify-content: space-around;
-  padding-top: 30px;
-  text-align: center;
+  line-height: 1.2rem;
 }
 #about .about4 .about4box .box4 .box4date {
   font-size: 13px;
-  color: #737373;
+  color: #2196F3;
+  /* border-radius: 30px; */
+  border-bottom: 1px solid #2196F3;
+  display: inline-block;
+  padding: 5px 0 5px 0;
 }
-#about .about4 .about4box .certifi .box5 {
-  background-color: #efefef;
-  border-radius: 35px;
-  width: 300px;
-  height: 120px;
-  padding-top: 30px;
-  padding-left: 40px;
+#about .about4 .about4box .box5 {
+  padding: 5px 0 5px 0;
 }
 
 #skill {
   padding: 20px 50px;
 }
-#skill .about5 .bgcircle {
-  background-color: #006edb;
-  border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-right: 8px;
-}
-#skill .about5 .bgcircle i {
-  color: white;
-  padding-right: 2px;
+#skill .skillbox {
+  padding-top: 6px;
 }
 #skill .skillbox.aos-animate .skill1_mini {
   position: relative;
 }
 #skill .skillbox.aos-animate .skill1_mini:before {
-  width: 60% !important;
+  width: 30% !important;
 }
 #skill .skillbox.aos-animate .skill1_mini p {
   position: absolute;
   top: -12px;
-  left: 61%;
+  left: 31%;
 }
 #skill .skillbox.aos-animate .skill2_mini {
   position: relative;
 }
 #skill .skillbox.aos-animate .skill2_mini:before {
-  width: 60% !important;
+  width: 50% !important;
 }
 #skill .skillbox.aos-animate .skill2_mini p {
   position: absolute;
   top: -12px;
-  left: 61%;
+  left: 51%;
 }
 #skill .skillbox.aos-animate .skill3_mini {
   position: relative;
 }
 #skill .skillbox.aos-animate .skill3_mini:before {
-  width: 80% !important;
+  width: 70% !important;
 }
-#skill .skillbox.aos-animate .skill10_mini {
+#skill .skillbox.aos-animate .skill3_mini p {
+  position: absolute;
+  top: -12px;
+  left: 71%;
+}
+#skill .skillbox.aos-animate .skill4_mini {
   position: relative;
 }
-#skill .skillbox.aos-animate .skill10_mini:before {
-  width: 50% !important;
+#skill .skillbox.aos-animate .skill4_mini:before {
+  width: 80% !important;
 }
-#skill .skillbox.aos-animate .skill11_mini {
+#skill .skillbox.aos-animate .skill4_mini p {
+  position: absolute;
+  top: -12px;
+  left: 81%;
+}
+#skill .skillbox.aos-animate .skill5_mini {
   position: relative;
 }
-#skill .skillbox.aos-animate .skill11_mini:before {
-  width: 80% !important;
+#skill .skillbox.aos-animate .skill5_mini:before {
+  width: 100% !important;
+}
+#skill .skillbox.aos-animate .skill5_mini p {
+  position: absolute;
+  top: -12px;
+  left: 101%;
+}
+#skill .skillbox.aos-animate .skill6_mini {
+  position: relative;
+}
+#skill .skillbox.aos-animate .skill6_mini:before {
+  width: 100% !important;
+}
+#skill .skillbox.aos-animate .skill6_mini p {
+  position: absolute;
+  top: -12px;
+  left: 101%;
 }
 #skill .skillbox .skill1 .ado {
   padding-left: 8px;
-}
-#skill .skillbox .skill1 .skill1_box {
-  padding-left: 35px;
 }
 #skill .skillbox .skill1 .skill1_box .skill1_mini {
   height: 3px;
@@ -235,14 +196,11 @@ a, p {
   bottom: 0;
   width: 0;
   background-color: #006edb;
-  transition: width 0.5s;
+  transition: width 1s;
   transition-delay: 0.5s;
 }
 #skill .skillbox .skill2 {
   padding-top: 3px;
-}
-#skill .skillbox .skill2 .skill2_box {
-  padding-left: 103px;
 }
 #skill .skillbox .skill2 .skill2_box .skill2_mini {
   height: 3px;
@@ -255,14 +213,11 @@ a, p {
   bottom: 0;
   width: 0;
   background-color: #006edb;
-  transition: width 0.5s;
-  transition-delay: 0.5s;
+  transition: width 1s;
+  transition-delay: 0.6s;
 }
 #skill .skillbox .skill3 {
   padding-top: 3px;
-}
-#skill .skillbox .skill3 .skill3_box {
-  padding-left: 43px;
 }
 #skill .skillbox .skill3 .skill3_box .skill3_mini {
   height: 3px;
@@ -275,19 +230,36 @@ a, p {
   bottom: 0;
   width: 0;
   background-color: #006edb;
-  transition: width 0.5s;
-  transition-delay: 0.5s;
+  transition: width 1s;
+  transition-delay: 0.7s;
 }
-#skill .skillbox .skill10 {
+#skill .skillbox .skill4 {
   padding-top: 6px;
 }
-#skill .skillbox .skill10 .skill10_box {
-  padding-left: 103px;
-}
-#skill .skillbox .skill10 .skill10_box .skill10_mini {
+#skill .skillbox .skill4 .skill4_box .skill4_mini {
   height: 3px;
 }
-#skill .skillbox .skill10 .skill10_box .skill10_mini:before {
+#skill .skillbox .skill4 .skill4_box .skill4_mini:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #006edb;
+  transition: width 1s;
+  transition-delay: 0.8s;
+}
+#skill .skillbox .skill5 {
+  padding-top: 6px;
+}
+#skill .skillbox .skill5 img {
+  padding-top: 6px;
+}
+#skill .skillbox .skill5 .skill5_box .skill5_mini {
+  height: 3px;
+}
+#skill .skillbox .skill5 .skill5_box .skill5_mini:before {
   content: "";
   position: absolute;
   left: 0;
@@ -296,39 +268,12 @@ a, p {
   width: 0;
   background-color: #006edb;
   transition: width 0.5s;
-  transition-delay: 0.5s;
-}
-#skill .skillbox .skill11 {
-  padding-top: 6px;
-}
-#skill .skillbox .skill11 img {
-  width: 100px;
-  padding-top: 6px;
-}
-#skill .skillbox .skill11 .skill11_box {
-  padding-left: 64px;
-}
-#skill .skillbox .skill11 .skill11_box .skill11_mini {
-  height: 3px;
-}
-#skill .skillbox .skill11 .skill11_box .skill11_mini:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 0;
-  background-color: #006edb;
-  transition: width 0.5s;
-  transition-delay: 0.5s;
+  transition-delay: 0.9s;
 }
 
 #portfolio {
   background-color: #c8dbf6;
   overflow: hidden;
-}
-#portfolio .por_titbox {
-  padding-top: 30px;
 }
 #portfolio .por_titbox:before {
   content: "";
@@ -360,9 +305,6 @@ a, p {
   padding-top: 20px;
 }
 
-#interview .titbox {
-  padding-top: 30px;
-}
 #interview .titbox:before {
   content: "";
   display: block;
@@ -373,16 +315,13 @@ a, p {
   text-align: center;
   padding-left: 5px;
 }
-#interview .inbox {
-  border-top: 1px solid #ddd;
-}
 #interview .inbox li {
   border-bottom: 1px solid #ddd;
 }
 #interview .inbox li a {
   position: relative;
   display: block;
-  padding: 30px 0 30px 85px;
+  padding: 20px 0 20px 85px;
 }
 #interview .inbox li a:before {
   content: "";
@@ -431,9 +370,6 @@ a, p {
 #contact {
   background-color: #c8dbf6;
 }
-#contact .contitbox {
-  padding-top: 30px;
-}
 #contact .contitbox:before {
   content: "";
   display: block;
@@ -444,42 +380,58 @@ a, p {
   text-align: center;
   padding-left: 5px;
 }
-#contact .form {
-  max-width: 1200px;
+#contact .contactform {
+  padding-bottom: 1rem;
+}
+#contact .contactform .form {
+  max-width: 1030px;
   margin: 0px auto;
-  width: 60%;
   background-color: white;
   padding: 60px;
   border: solid 2px #006edb;
+  font-size: 19px;
 }
-#contact .form .box2, #contact .form .box3, #contact .form .box4, #contact .form .box5 {
+#contact .contactform .form .oa {
+  max-width: 185px;
+  width: 25%;
+  padding-right: 2rem;
+}
+#contact .contactform .form .cotact_mini {
+  width: 300px;
+}
+#contact .contactform .form .box2, #contact .contactform .form .box3, #contact .contactform .form .box4, #contact .contactform .form .box5 {
   padding-top: 10px;
 }
-#contact .form .box4 li {
-  padding: 0 12px;
+#contact .contactform .form .box4 li {
+  padding-right: 30px;
 }
-#contact .form .box5 li {
-  padding: 0 12px;
+#contact .contactform .form .box5 li {
+  padding-right: 30px;
 }
-#contact .personal {
+#contact .contactform .form .personal {
   padding-top: 10px;
+  text-align: center;
 }
-#contact .bts {
+#contact .contactform .form .bts {
   text-align: center;
   padding-top: 30px;
 }
 
+.skillbox > div > div:first-child {
+  max-width: 128px;
+  width: 25%;
+  padding-right: 2rem;
+}
+.skillbox > div > div:first-child img {
+  max-width: 100%;
+  height: auto;
+  flex-grow: 1;
+}
+
 #footer {
-  background-color: #efefef;
-  height: 90px;
-}
-#footer .fbox {
-  justify-content: center;
-  align-items: center;
-  padding-top: 15px;
-}
-#footer .fli {
-  padding: 0 30px;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
 }
 
 #quick {
@@ -488,28 +440,17 @@ a, p {
   right: 20px;
   z-index: 10;
 }
-#quick .kakao {
-  margin-bottom: 0.5rem;
+#quick .q_top {
+  padding-top: 5px;
 }
-#quick .kakao .kakao_a {
+#quick .q_top .quick_top {
   align-items: center;
   border-radius: 50%;
   display: flex;
   flex-direction: column;
-  height: 70px;
+  height: 57px;
   justify-content: center;
   overflow: hidden;
-  width: 70px;
-  background-color: #f4db4d;
-}
-#quick .quick_top {
-  align-items: center;
-  border-radius: 50%;
-  display: flex;
-  flex-direction: column;
-  height: 70px;
-  justify-content: center;
-  overflow: hidden;
-  width: 70px;
+  width: 57px;
   background-color: #006edb;
 }

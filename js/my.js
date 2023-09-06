@@ -1,18 +1,27 @@
 
 
 window.onload = function(){
-    var swiper = new Swiper(".mySwiper", {
+    var swiperAbout = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
         navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            nextEl: ".mySwiper .swiper-button-next",
+            prevEl: ".mySwiper .swiper-button-prev",
         },
+        breakpoints: {
+          
+            991: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            }
+          },
     });
 
     var swiper = new Swiper(".mySwiper2", {
         slidesPerView: 1,
         navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".mySwiper2 .swiper-button-next",
+        prevEl: ".mySwiper2 .swiper-button-prev",
         },
     });
 }

@@ -19,8 +19,28 @@ a, p{
     height: 500px;
 }
 
+.boxs{
+    background-color: #efefef;
+    border-radius: 35px;
+}
+.bgcircle{
+    background-color: #006edb;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;            
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;   
+    margin-right: 8px;     
+    i{
+        color: white;
+        padding-right: 2px;
+    }
+}
+
 /* about */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     #about{
         .about1{
             .aboutimg_ment{
@@ -36,41 +56,14 @@ a, p{
                 margin-right: 10px;
             }
         }
-        .swiper-button-next{
-           
-        }
-        .swiper-button-prev{
-            
-        }
-        .about3{
-            .swiper-box{
-                
-                padding-top: 50px !important;
-                .sbox{
-                    .sboxdate{
-                    }
-                    .pp{
-                        font-size: 13px !important;
-                    }
-                }
-            }
-        }
-        .about4{
-            .about4box{
-                .box4{
-                background-color: #efefef;
-                border-radius: 35px;
-                padding-top: 30px;
-                }
-            }
-        }
+    }
+    #quick{
+        display: none;
     }
 }
 
 
 #about{
-    padding-top: 5rem;
-    .aboutbox{
         padding: 0 50px;
         .titbox{
             padding-top: 30px;           
@@ -83,7 +76,6 @@ a, p{
             .ptitle{
                 padding-left: 5px;
             }}
-    }
     .aboutimg_ment{
         padding-left: 90px;
         h2{
@@ -100,100 +92,47 @@ a, p{
     }
     .about2{
         justify-content: space-between;
-        padding-top: 20px;
-        .bgcircle{
-            background-color: #006edb;
-            border-radius: 50%;
-            width: 2rem;
-            height: 2rem;            
-            display: flex;
-            flex-direction: column;
-            justify-content: center;  
-            align-items: center;   
-            margin-right: 8px;     
-            i{
-                color: white;
-                padding-right: 2px;
-            }
+        .bgcircle{          
         }
     }
     .about3{
         .bgcircle{
-            background-color: #006edb;
-            border-radius: 50%;
-            width: 2rem;
-            height: 2rem;            
-            display: flex;
-            flex-direction: column;
-            justify-content: center;  
-            align-items: center;   
-            margin-right: 8px;     
-            i{
-                color: white;
-                padding-right: 2px;
-            }
         }
         .swiper{
             height: 150px;
         }
         .swiper-slide{
-            background-color: #efefef;
-            border-radius: 35px;
-            .swiper-box{
-                justify-content: space-around;
-                padding-top: 40px;
+            padding:25px  10px  25px 50px;
                 .sbox{
-                    text-align: center;
                     .sboxdate{
                         font-size: 13px;
-                        color: #737373;
+                        color: #2196F3;
+                        /* border-radius: 30px; */
+                        border-bottom: 1px solid #2196F3;
+                        display: inline-block;
+                        padding: 5px 0 5px 0;
                     }
                 }
-            }
         }
         
     }
     .about4{
         .bgcircle{
-            background-color: #006edb;
-            border-radius: 50%;
-            width: 2rem;
-            height: 2rem;            
-            display: flex;
-            flex-direction: column;
-            justify-content: center;  
-            align-items: center;   
-            margin-right: 8px;     
-            i{
-                color: white;
-                padding-right: 2px;
-            }
         }
         .about4box{
-            justify-content: space-between;
+            line-height: 1.2rem;
             .box4{
-                background-color: #efefef;
-                border-radius: 35px;
-                width: 500px;
-                height: 120px;
-                justify-content: space-around;
-                padding-top: 30px;
-                text-align: center;
                 .box4date{
                     font-size: 13px;
-                    color: #737373;
+                    color: #2196F3;
+                    /* border-radius: 30px; */
+                    border-bottom: 1px solid #2196F3;
+                    display: inline-block;
+                    padding: 5px 0 5px 0;
                 }
             }
-            .certifi{
-                // padding-left: 50px;
-                .box5 {
-                    background-color: #efefef;
-                    border-radius: 35px;
-                    width: 300px;
-                    height: 120px;
-                    padding-top: 30px;
-                    padding-left: 40px;
-                }
+            .box5{
+                padding: 5px 0 5px 0;
             }
         }
     }
@@ -201,75 +140,85 @@ a, p{
 #skill{
     padding: 20px 50px;
     .about5{
-        .bgcircle{
-            background-color: #006edb;
-            border-radius: 50%;
-            width: 2rem;
-            height: 2rem;            
-            display: flex;
-            flex-direction: column;
-            justify-content: center;  
-            align-items: center;   
-            margin-right: 8px;     
-            i{
-                color: white;
-                padding-right: 2px;
-            }
-        }
+        
     }
     .skillbox{
-
-
+        padding-top: 6px;
     &.aos-animate{
         .skill1_mini{
             position: relative;
             &:before{
-                width:60% !important;
+                width:30% !important;
             }
             p{
                 position: absolute;
                 top: -12px;
-                left: 61%;
+                left: 31%;
             }
         }
         .skill2_mini{
             position: relative;
             &:before{
-                width:60% !important;
+                width:50% !important;
             }
             p{
                 position: absolute;
                 top: -12px;
-                left: 61%;
+                left: 51%;
             }
         }
         .skill3_mini{
             position: relative;
             &:before{
-                width:80% !important;
+                width:70% !important;
+            }
+            p{
+                position: absolute;
+                top: -12px;
+                left: 71%;
             }
         }
-        .skill10_mini{
-            position: relative;
-            &:before{
-                width:50% !important;
-            }
-        }
-        .skill11_mini{
+        .skill4_mini{
             position: relative;
             &:before{
                 width:80% !important;
+            }
+            p{
+                position: absolute;
+                top: -12px;
+                left: 81%;
+            }
+        }
+        .skill5_mini{
+            position: relative;
+            &:before{
+                width:100% !important;
+            }
+            p{
+                position: absolute;
+                top: -12px;
+                left: 101%;
+            }
+        }
+        .skill6_mini{
+            position: relative;
+            &:before{
+                width:100% !important;
+            }
+            p{
+                position: absolute;
+                top: -12px;
+                left: 101%;
             }
         }
     }
 
-
+    
         .skill1{
             .ado{
                 padding-left: 8px;
             }
             .skill1_box{
-                padding-left: 35px;
                 .skill1_mini{
                     height: 3px;
                     &:before{
@@ -279,7 +228,7 @@ a, p{
                         bottom:0;
                         width:0;
                         background-color: #006edb;
-                        transition: width 0.5s; 
+                        transition: width 1s; 
                         transition-delay: 0.5s;
                     }
                 }
@@ -288,7 +237,7 @@ a, p{
         .skill2{
             padding-top: 3px;
             .skill2_box{
-                padding-left: 103px;
+               
                 .skill2_mini{
                     height: 3px;
                     &:before{
@@ -298,8 +247,8 @@ a, p{
                         bottom:0;
                         width:0;
                         background-color: #006edb;
-                        transition: width 0.5s; 
-                        transition-delay: 0.5s;
+                        transition: width 1s; 
+                        transition-delay: 0.6s;
                     }
                 }
             }
@@ -307,7 +256,7 @@ a, p{
         .skill3{
             padding-top: 3px;
             .skill3_box{
-                padding-left: 43px;
+               
                 .skill3_mini{
                     height: 3px;
                     &:before{
@@ -317,18 +266,18 @@ a, p{
                         bottom:0;
                         width:0;
                         background-color: #006edb;
-                        transition: width 0.5s; 
-                        transition-delay: 0.5s;
+                        transition: width 1s; 
+                        transition-delay: 0.7s;
                     }
                 }
             }
         }
         
-        .skill10{
+        .skill4{
             padding-top: 6px;
-            .skill10_box{
-                padding-left: 103px;
-                .skill10_mini{
+            .skill4_box{
+               
+                .skill4_mini{
                     height: 3px;
                     &:before{
                         content: "";
@@ -337,21 +286,20 @@ a, p{
                         bottom:0;
                         width:0;
                         background-color: #006edb;
-                        transition: width 0.5s; 
-                        transition-delay: 0.5s;
+                        transition: width 1s; 
+                        transition-delay: 0.8s;
                     }
                 }
             }
         }
-        .skill11{
+        .skill5{
             padding-top: 6px;
             img{
-                width: 100px;
                 padding-top: 6px;
             }
-            .skill11_box{
-                padding-left: 64px;
-                .skill11_mini{
+            .skill5_box{
+               
+                .skill5_mini{
                     height: 3px;
                     &:before{
                         content: "";
@@ -361,34 +309,18 @@ a, p{
                         width:0;
                         background-color: #006edb;
                         transition: width 0.5s; 
-                        transition-delay: 0.5s;
+                        transition-delay: 0.9s;
                     }
                 }
             }
         }
     }
 }
-// padding-top: 5rem;
-//     .aboutbox{
-//         padding: 0 50px;
-//         .titbox{
-//             padding-top: 30px;           
-//             &:before{
-//                 content: "";
-//                 display: block;
-//                 background-color: #006edb;
-//                 width: 9px;                
-//             }
-//             .ptitle{
-//                 padding-left: 5px;
-//             }}
-//     }
 
 #portfolio{
     background-color: #c8dbf6;
     overflow: hidden;
     .por_titbox{
-        padding-top: 30px;
         &:before{
             content: "";
             display: block;
@@ -400,7 +332,6 @@ a, p{
             padding-left: 5px;
         }
     }
-    
     .portbox{
         .pimg{
             width: 45%;
@@ -425,7 +356,6 @@ a, p{
 }
 #interview{
     .titbox{
-        padding-top: 30px;
         &:before{
             content: "";
             display: block;
@@ -438,13 +368,12 @@ a, p{
         }
     }
     .inbox{
-        border-top: 1px solid #ddd;
         li{
             border-bottom: 1px solid #ddd;
             a{
                 position: relative;
                 display: block;
-                padding: 30px 0 30px 85px;
+                padding : 20px 0 20px 85px;
                 &:before{
                     content: "";
                     position: absolute;
@@ -495,7 +424,6 @@ a, p{
 #contact{
     background-color: #c8dbf6;
     .contitbox{
-        padding-top: 30px;
         &:before{
             content: "";
             display: block;
@@ -507,45 +435,72 @@ a, p{
             padding-left: 5px;
         }
     }
-    .form{
-        max-width: 1200px;
-        margin: 0px auto;
-        width: 60%;
-        background-color: white;
-        padding: 60px;
-        border: solid 2px #006edb;
-        .box2, .box3, .box4, .box5{
-            padding-top: 10px;
-        }
-        
-        .box4 li{
-            padding: 0 12px;
-        }
-        .box5 li{
-            padding: 0 12px;
+    .contactform{
+        padding-bottom: 1rem;
+        .form{
+            max-width: 1030px;
+            margin: 0px auto;
+            background-color: white;
+            padding: 60px;
+            border: solid 2px #006edb;
+            font-size: 19px;
+            .oa{
+                max-width: 185px;
+                width: 25%;
+                padding-right: 2rem;
+            }
+            .cotact_mini{
+                width: 300px;
+            }
+            .box2, .box3, .box4, .box5{
+                padding-top: 10px;
+            }
+            .box4 li{
+                padding-right: 30px;
+            }
+            .box5 li{
+                padding-right: 30px;
+            }
+            .personal{
+                padding-top: 10px;
+                text-align: center;
+            }
+            .bts{
+                text-align: center;
+                padding-top: 30px;
+            }
         }
     }
-    .personal{
-        padding-top: 10px;
-    }
-    .bts{
-        text-align: center;
-        padding-top: 30px;
-    }
+}
 
+
+.skillbox{
+    >div{
+        >div:first-child{
+            max-width: 128px;
+            width:25%;
+            padding-right: 2rem;
+            img{
+                max-width:100%;
+                height:auto;
+                flex-grow: 1;
+            }
+        }
+    }
 }
 
 #footer{
-    background-color: #efefef;
-    height: 90px;
-    .fbox{
-        justify-content: center;
-        align-items: center;
-        padding-top: 15px;
-    }
-    .fli{
-        padding: 0 30px;
-    }
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    // .fbox{
+    //     justify-content: center;
+    //     align-items: center;
+    //     padding-top: 15px;
+    // }
+    // .fli{
+    //     padding: 0 30px;
+    // }
 }
 
 #quick{
@@ -553,29 +508,33 @@ a, p{
     position: fixed;
     right: 20px;
     z-index: 10;
-    .kakao{
-        margin-bottom: 0.5rem;
-        .kakao_a{
+    // .kakao{
+    //     margin-bottom: 0.5rem;
+    //     .kakao_a{
+    //         align-items: center;
+    //         border-radius: 50%;
+    //         display: flex;
+    //         flex-direction: column;
+    //         height: 70px;
+    //         justify-content: center;
+    //         overflow: hidden;
+    //         width: 70px;
+    //         background-color: white;
+    //     }
+    // }
+    .q_top{
+        padding-top: 5px;
+        .quick_top{
             align-items: center;
             border-radius: 50%;
             display: flex;
             flex-direction: column;
-            height: 70px;
+            height: 57px;
             justify-content: center;
             overflow: hidden;
-            width: 70px;
-            background-color: #f4db4d;
+            width: 57px;
+            background-color: #006edb;
         }
     }
-    .quick_top{
-        align-items: center;
-        border-radius: 50%;
-        display: flex;
-        flex-direction: column;
-        height: 70px;
-        justify-content: center;
-        overflow: hidden;
-        width: 70px;
-        background-color: #006edb;
-    }
+
 }
