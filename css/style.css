@@ -170,6 +170,10 @@ a, p {
 #header .title_ment img {
   width: 17px;
 }
+#header .title_ment .mini_ment {
+  color: #006edb;
+  font-weight: 400;
+}
 #header .navi {
   padding-top: 13px;
 }
@@ -516,10 +520,12 @@ a, p {
 }
 #portfolio .portbox .pimg {
   width: 45%;
+  border: solid 1px #ccc;
 }
 #portfolio .portbox .pimg1 {
   width: 45%;
   margin-left: 10px;
+  border: solid 1px #ccc;
 }
 #portfolio .portbox .portment1 {
   padding: 25px;
@@ -532,6 +538,15 @@ a, p {
 }
 #portfolio .portbox .p1_ment3 {
   padding-top: 20px;
+}
+#portfolio .portbox .p1_ment3 .p1_ment4 a {
+  color: white;
+  font-size: 15px;
+  border: solid 1px white;
+  padding: 5px 12px;
+}
+#portfolio .portbox .p1_ment3 .p1_ment4 .direct {
+  padding: 0 20px;
 }
 
 #interview .titbox:before {
@@ -644,6 +659,13 @@ a, p {
 #contact .contactform .form .bts {
   text-align: center;
   padding-top: 30px;
+}
+#contact .contactform .form .bts .c_bts {
+  color: white;
+  background: #c8dbf6;
+  border: solid 1px #006edb;
+  font-size: 15px;
+  padding: 3px;
 }
 
 .skillbox > div > div:first-child {

@@ -191,6 +191,10 @@ a, p{
             img{
                 width: 17px;
             }
+            .mini_ment{
+                color: #006edb;
+                font-weight: 400;
+            }
         }
         .navi{
             padding-top: 13px;
@@ -583,10 +587,12 @@ a, p{
     .portbox{
         .pimg{
             width: 45%;
+            border: solid 1px #ccc;
         }
         .pimg1{
             width: 45%;
             margin-left: 10px;
+            border: solid 1px #ccc;
         }
         .portment1{
             padding: 25px;
@@ -599,7 +605,22 @@ a, p{
         }
         .p1_ment3{
             padding-top: 20px;
+            .box{
+                // background-color: white;
+            }
+            .p1_ment4{
+                a{
+                    color: white;
+                    font-size: 15px;
+                    border: solid 1px white;
+                    padding: 5px 12px;
+                }
+                .direct{
+                    padding: 0 20px;
+                }
+            }
         }
+        
     }
 }
 // ---------------------------------------------------------------------------
@@ -718,6 +739,13 @@ a, p{
             .bts{
                 text-align: center;
                 padding-top: 30px;
+                .c_bts{
+                    color: white;
+                    background: #c8dbf6;
+                    border: solid 1px #006edb;
+                    font-size: 15px;
+                    padding: 3px;
+                }
             }
         }
     }
