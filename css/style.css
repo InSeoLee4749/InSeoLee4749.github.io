@@ -4,6 +4,11 @@ body {
   font-weight: 300;
   letter-spacing: -0.085em;
 }
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}
 
 ul, li {
   list-style: none;
@@ -42,28 +47,13 @@ a, p {
 }
 
 @media screen and (max-width: 961px) {
-  #header .frame .fr_none {
-    display: none;
-  }
-  #header .frame .hd4 {
-    left: 14% !important;
-  }
-  #header .frame .hd8 {
-    top: 30% !important;
-    left: 87% !important;
-  }
-  #header .hd .top_hd {
-    display: none;
-  }
   #header .hd .navi {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #c8dbf6;
-    opacity: 0.6;
-    padding: 14px;
+    background-color: rgba(200, 219, 246, 0.3764705882);
   }
   #about .about1 .aboutimg_ment {
     padding-left: 0 !important;
@@ -84,16 +74,25 @@ a, p {
 }
 #header {
   background-color: #c8dbf6;
-  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
+  max-height: 600px;
+  height: 100vh;
 }
 #header .frame .hd1 {
   left: 13%;
-  top: 8%;
+  top: 2%;
   z-index: 100;
   animation-name: hd1;
+}
+@media (max-width: 1280px) {
+  #header .frame .hd1 {
+    width: 18vw;
+  }
+  #header .frame .hd1 img {
+    width: 100%;
+  }
 }
 #header .frame .hd2 {
   left: 39%;
@@ -101,11 +100,27 @@ a, p {
   z-index: 100;
   animation-name: hd2;
 }
+@media (max-width: 1280px) {
+  #header .frame .hd2 {
+    width: 18vw;
+  }
+  #header .frame .hd2 img {
+    width: 100%;
+  }
+}
 #header .frame .hd3 {
   left: 37%;
-  top: 27%;
+  top: 41%;
   z-index: 100;
   animation-name: hd3;
+}
+@media (max-width: 1280px) {
+  #header .frame .hd3 {
+    width: 18vw;
+  }
+  #header .frame .hd3 img {
+    width: 100%;
+  }
 }
 #header .frame .hd8 {
   left: 16%;
@@ -113,29 +128,69 @@ a, p {
   z-index: 100;
   animation-name: hd8;
 }
+@media (max-width: 1280px) {
+  #header .frame .hd8 {
+    width: 18vw;
+  }
+  #header .frame .hd8 img {
+    width: 100%;
+  }
+}
 #header .frame .hd4 {
   left: 37%;
   top: -8%;
   z-index: 100;
   animation-name: hd4;
 }
+@media (max-width: 1280px) {
+  #header .frame .hd4 {
+    width: 18vw;
+  }
+  #header .frame .hd4 img {
+    width: 100%;
+  }
+}
 #header .frame .hd5 {
   left: 60%;
-  top: 5%;
+  top: -6%;
   z-index: 100;
   animation-name: hd5;
 }
+@media (max-width: 1280px) {
+  #header .frame .hd5 {
+    width: 18vw;
+  }
+  #header .frame .hd5 img {
+    width: 100%;
+  }
+}
 #header .frame .hd6 {
   left: 39%;
-  top: 27%;
+  top: 47%;
   z-index: 100;
   animation-name: hd6;
+}
+@media (max-width: 1280px) {
+  #header .frame .hd6 {
+    width: 18vw;
+  }
+  #header .frame .hd6 img {
+    width: 100%;
+  }
 }
 #header .frame .hd7 {
   left: 65%;
   top: 41%;
   z-index: 100;
   animation-name: hd7;
+}
+@media (max-width: 1280px) {
+  #header .frame .hd7 {
+    width: 18vw;
+  }
+  #header .frame .hd7 img {
+    width: 100%;
+  }
 }
 #header .hd {
   text-align: center;
@@ -181,6 +236,12 @@ a, p {
   font-size: 18px;
   padding: 0 16px;
   font-weight: 400;
+}
+@media screen and (max-width: 320px) {
+  #header .navi nav .navi_1 a {
+    padding: 0 3px;
+    font-size: 18px !important;
+  }
 }
 
 .fixed-top {
@@ -353,67 +414,45 @@ a, p {
   position: relative;
 }
 #skill .skillbox.aos-animate .skill1_mini:before {
-  width: 30% !important;
+  width: 80% !important;
 }
 #skill .skillbox.aos-animate .skill1_mini p {
   position: absolute;
   top: -12px;
-  left: 31%;
+  left: 81%;
 }
 #skill .skillbox.aos-animate .skill2_mini {
   position: relative;
 }
 #skill .skillbox.aos-animate .skill2_mini:before {
-  width: 50% !important;
+  width: 70% !important;
 }
 #skill .skillbox.aos-animate .skill2_mini p {
   position: absolute;
   top: -12px;
-  left: 51%;
+  left: 71%;
 }
 #skill .skillbox.aos-animate .skill3_mini {
   position: relative;
 }
 #skill .skillbox.aos-animate .skill3_mini:before {
-  width: 70% !important;
+  width: 60% !important;
 }
 #skill .skillbox.aos-animate .skill3_mini p {
   position: absolute;
   top: -12px;
-  left: 71%;
+  left: 61%;
 }
 #skill .skillbox.aos-animate .skill4_mini {
   position: relative;
 }
 #skill .skillbox.aos-animate .skill4_mini:before {
-  width: 80% !important;
+  width: 70% !important;
 }
 #skill .skillbox.aos-animate .skill4_mini p {
   position: absolute;
   top: -12px;
-  left: 81%;
-}
-#skill .skillbox.aos-animate .skill5_mini {
-  position: relative;
-}
-#skill .skillbox.aos-animate .skill5_mini:before {
-  width: 100% !important;
-}
-#skill .skillbox.aos-animate .skill5_mini p {
-  position: absolute;
-  top: -12px;
-  left: 101%;
-}
-#skill .skillbox.aos-animate .skill6_mini {
-  position: relative;
-}
-#skill .skillbox.aos-animate .skill6_mini:before {
-  width: 100% !important;
-}
-#skill .skillbox.aos-animate .skill6_mini p {
-  position: absolute;
-  top: -12px;
-  left: 101%;
+  left: 71%;
 }
 #skill .skillbox .skill1 .ado {
   padding-left: 8px;
@@ -540,13 +579,15 @@ a, p {
   padding-top: 20px;
 }
 #portfolio .portbox .p1_ment3 .p1_ment4 a {
-  color: white;
   font-size: 15px;
-  border: solid 1px white;
-  padding: 5px 12px;
+  color: #006edb;
+  border-bottom: solid 1px #006edb;
+  padding: 1px 5px;
 }
-#portfolio .portbox .p1_ment3 .p1_ment4 .direct {
-  padding: 0 20px;
+@media screen and (max-width: 320px) {
+  #portfolio .portbox .p1_ment3 .p1_ment4 .direct {
+    padding: 18px 0;
+  }
 }
 
 #interview .titbox:before {
@@ -588,6 +629,7 @@ a, p {
 #interview .inbox li a div {
   width: 90%;
   overflow: hidden;
+  padding-top: 7px;
 }
 #interview .inbox li .answer {
   display: none;
@@ -635,6 +677,14 @@ a, p {
   border: solid 2px #006edb;
   font-size: 19px;
 }
+@media screen and (max-width: 320px) {
+  #contact .contactform .form {
+    padding: 0;
+  }
+  #contact .contactform .form .oa {
+    width: 50% !important;
+  }
+}
 #contact .contactform .form .oa {
   max-width: 185px;
   width: 25%;
@@ -651,6 +701,10 @@ a, p {
 }
 #contact .contactform .form .box5 li {
   padding-right: 30px;
+}
+#contact .contactform .form .box6 .box6_mess {
+  width: 300px;
+  height: 110px;
 }
 #contact .contactform .form .personal {
   padding-top: 10px;
@@ -689,7 +743,7 @@ a, p {
   bottom: 20px;
   position: fixed;
   right: 20px;
-  z-index: 10;
+  z-index: 110;
 }
 #quick .q_top .quick_top {
   align-items: center;
