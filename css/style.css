@@ -10,11 +10,13 @@ body {
   }
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
-a, p {
+a,
+p {
   text-decoration: none;
   color: #262626;
 }
@@ -47,6 +49,22 @@ a, p {
 }
 
 @media screen and (max-width: 961px) {
+  #header {
+    width: 100%;
+    overflow: hidden;
+  }
+  #header .hdimg {
+    max-width: 100%;
+    background: url(/img/me.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  #header .hdimg img {
+    display: none;
+  }
+  #header .hd .top_hd {
+    display: none;
+  }
   #header .hd .navi {
     position: fixed;
     top: 0;
@@ -54,6 +72,9 @@ a, p {
     width: 100%;
     z-index: 1000;
     background-color: rgba(200, 219, 246, 0.3764705882);
+  }
+  #about {
+    padding-top: 30px;
   }
   #about .about1 .aboutimg_ment {
     padding-left: 0 !important;
@@ -239,13 +260,14 @@ a, p {
 }
 @media screen and (max-width: 320px) {
   #header .navi nav .navi_1 a {
-    padding: 0 3px;
-    font-size: 18px !important;
+    padding: 3px 0;
+    font-size: 10px !important;
   }
 }
 
 .fixed-top {
-  position: fixed; /* 요소를 화면 상단에 고정합니다. */
+  position: fixed;
+  /* 요소를 화면 상단에 고정합니다. */
   top: 0;
   left: 0;
   width: 100%;
@@ -255,7 +277,7 @@ a, p {
   padding: 14px;
 }
 .fixed-top li {
-  padding: 5px 2px;
+  padding: 5px 0;
 }
 .fixed-top li a {
   font-size: 20px !important;
@@ -693,7 +715,10 @@ a, p {
 #contact .contactform .form .cotact_mini {
   width: 300px;
 }
-#contact .contactform .form .box2, #contact .contactform .form .box3, #contact .contactform .form .box4, #contact .contactform .form .box5 {
+#contact .contactform .form .box2,
+#contact .contactform .form .box3,
+#contact .contactform .form .box4,
+#contact .contactform .form .box5 {
   padding-top: 10px;
 }
 #contact .contactform .form .box4 li {
