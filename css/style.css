@@ -55,15 +55,15 @@ p {
   }
   #header .hdimg {
     max-width: 100%;
-    background: url(/img/me.jpg) no-repeat;
-    background-size: cover;
+    background: url(/img/me.jpg) no-repeat 12% 39%;
+    background-size: 179%;
     overflow: hidden;
   }
   #header .hdimg img {
     display: none;
   }
   #header .hd .top_hd {
-    display: none;
+    margin-top: 25vw;
   }
   #header .hd .navi {
     position: fixed;
@@ -72,9 +72,6 @@ p {
     width: 100%;
     z-index: 1000;
     background-color: rgba(200, 219, 246, 0.3764705882);
-  }
-  #about {
-    padding-top: 30px;
   }
   #about .about1 .aboutimg_ment {
     padding-left: 0 !important;
@@ -99,7 +96,8 @@ p {
   justify-content: center;
   align-items: center;
   max-height: 600px;
-  height: 100vh;
+  height: calc(100vh - 80px);
+  position: relative;
 }
 #header .frame .hd1 {
   left: 13%;
@@ -251,7 +249,7 @@ p {
   font-weight: 400;
 }
 #header .navi {
-  padding-top: 13px;
+  padding: 13px;
 }
 #header .navi nav .navi_1 a {
   font-size: 18px;
